@@ -1,4 +1,6 @@
-TABTeamMembersTest
-==================
+TABTeamViewer
 
-iOS App showing all the team members from The App Business
+Shows the team members of The App Business
+
+Device Family: iPhone
+OS : iOS 7+
