@@ -19,26 +19,42 @@
    
     [[self teamMemberImageView] setImageWithURL:[NSURL URLWithString:[teamMember imageURL]]
                    placeholderImage:[UIImage imageNamed:nil]];
-    
-   
-    
-    
 }
 
+// Override the layout subviews for cusomisation
 -(void)layoutSubviews
 {
     [super layoutSubviews];
     
+    //make team members images into circles
     [[[self teamMemberImageView] layer] setMasksToBounds:YES];
     [[[self teamMemberImageView] layer] setCornerRadius:40.0f];
-    
-//    float imageY = 4.0;
-//    float heightOfImageLayer  = self.bounds.size.height - imageY*2.0;
-//    heightOfImageLayer = floorf(heightOfImageLayer);
-//    mImageLayer.cornerRadius = heightOfImageLayer/2.0f;
-//    mImageLayer.frame = CGRectMake(4.0, imageY, heightOfImageLayer, heightOfImageLayer);
-//    mCellTtleLabel.frame = CGRectMake(heightOfImageLayer+10.0, floorf(heightOfImageLayer/2.0 - (21/2.0f))+4.0, self.contentView.bounds.sizewidth-heightOfImageLayer+10.0, 21.0);
-    
+
 }
+
+//// Override drawrect to customise any drawing
+//- (void) drawRect:(CGRect)rect
+//{
+//    [super drawRect:rect];
+//    
+//    CGContextRef context = UIGraphicsGetCurrentContext();
+//    CGContextSetStrokeColorWithColor(context, [[UIColor darkTextColor] CGColor]);
+//    
+//    // Draw them with a 1.0 stroke width so they are a bit more visible.
+//    CGContextSetLineWidth(context, 3.0);
+//    
+//    int lineStartXPos = self.bounds.origin.x + 20;
+//    int lineStartYPos = self.bounds.size.height - 5;
+//    int lineFinishXPos = self.bounds.size.width - 20;
+//    int lineFinishYPos = lineStartYPos;
+//    
+//    
+//    CGContextMoveToPoint(context, lineStartXPos,lineFinishYPos); //start at this point
+//    
+//    CGContextAddLineToPoint(context, lineFinishXPos,lineFinishYPos); //draw to this point
+//    
+//    // and now draw the Path!
+//    CGContextStrokePath(context);
+//}
 
 @end

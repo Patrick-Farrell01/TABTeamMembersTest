@@ -22,8 +22,9 @@
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
+    if (self)
+    {
+        [self setTitle:@"Meet the Team"];
     }
     return self;
 }

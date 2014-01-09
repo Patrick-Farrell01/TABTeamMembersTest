@@ -51,6 +51,7 @@
 		CD4EB342187F15BF003B55FF /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB334187F15BF003B55FF /* UIImage+WebP.m */; };
 		CD4EB343187F15BF003B55FF /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB336187F15BF003B55FF /* UIImageView+WebCache.m */; };
 		CD4EB346187F1702003B55FF /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB345187F1702003B55FF /* NSData+ImageContentType.m */; };
+		CD4EB349187F3B80003B55FF /* TABNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB348187F3B80003B55FF /* TABNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,8 @@
 		CD4EB336187F15BF003B55FF /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		CD4EB344187F1702003B55FF /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		CD4EB345187F1702003B55FF /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		CD4EB347187F3B80003B55FF /* TABNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABNavigationController.h; sourceTree = "<group>"; };
+		CD4EB348187F3B80003B55FF /* TABNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +306,8 @@
 			children = (
 				CD4EB305187EF2B2003B55FF /* TeamViewerViewController.h */,
 				CD4EB306187EF2B2003B55FF /* TeamViewerViewController.m */,
+				CD4EB347187F3B80003B55FF /* TABNavigationController.h */,
+				CD4EB348187F3B80003B55FF /* TABNavigationController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 				CD4EB2BB187DDF03003B55FF /* AppDelegate.m in Sources */,
 				CD4EB2FF187DE1AB003B55FF /* TeamMember.m in Sources */,
 				CD4EB2E5187DDF92003B55FF /* XPathQuery.m in Sources */,
+				CD4EB349187F3B80003B55FF /* TABNavigationController.m in Sources */,
 				CD4EB30C187EF472003B55FF /* TABTeamLoader.m in Sources */,
 				CD4EB2F4187DE014003B55FF /* FMDatabase.m in Sources */,
 				CD4EB2F7187DE014003B55FF /* FMDatabase+Extras.m in Sources */,
