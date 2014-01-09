@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TeamViewerViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    TeamViewerViewController * vc = [[TeamViewerViewController alloc] init];
+    
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    //add completed tab bar controller to the windows
+    [[self window] setRootViewController:nav];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

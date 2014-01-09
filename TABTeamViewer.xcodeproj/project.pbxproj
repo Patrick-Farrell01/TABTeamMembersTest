@@ -30,6 +30,11 @@
 		CD4EB2F8187DE014003B55FF /* FMDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2F2187DE014003B55FF /* FMDatabaseManager.m */; };
 		CD4EB2FC187DE18E003B55FF /* DatabaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2FB187DE18E003B55FF /* DatabaseDAO.m */; };
 		CD4EB2FF187DE1AB003B55FF /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2FE187DE1AB003B55FF /* TeamMember.m */; };
+		CD4EB308187EF2B2003B55FF /* TeamViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB306187EF2B2003B55FF /* TeamViewerViewController.m */; };
+		CD4EB309187EF2B2003B55FF /* TeamViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4EB307187EF2B2003B55FF /* TeamViewerViewController.xib */; };
+		CD4EB30C187EF472003B55FF /* TABTeamLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB30B187EF472003B55FF /* TABTeamLoader.m */; };
+		CD4EB30F187F01B0003B55FF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4EB30E187F01B0003B55FF /* libxml2.dylib */; };
+		CD4EB311187F029D003B55FF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4EB310187F029D003B55FF /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +85,13 @@
 		CD4EB2FB187DE18E003B55FF /* DatabaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseDAO.m; sourceTree = "<group>"; };
 		CD4EB2FD187DE1AB003B55FF /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
 		CD4EB2FE187DE1AB003B55FF /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
+		CD4EB305187EF2B2003B55FF /* TeamViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewerViewController.h; sourceTree = "<group>"; };
+		CD4EB306187EF2B2003B55FF /* TeamViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamViewerViewController.m; sourceTree = "<group>"; };
+		CD4EB307187EF2B2003B55FF /* TeamViewerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamViewerViewController.xib; sourceTree = "<group>"; };
+		CD4EB30A187EF472003B55FF /* TABTeamLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABTeamLoader.h; sourceTree = "<group>"; };
+		CD4EB30B187EF472003B55FF /* TABTeamLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABTeamLoader.m; sourceTree = "<group>"; };
+		CD4EB30E187F01B0003B55FF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CD4EB310187F029D003B55FF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4EB311187F029D003B55FF /* libsqlite3.dylib in Frameworks */,
+				CD4EB30F187F01B0003B55FF /* libxml2.dylib in Frameworks */,
 				CD4EB2AD187DDF03003B55FF /* CoreGraphics.framework in Frameworks */,
 				CD4EB2AF187DDF03003B55FF /* UIKit.framework in Frameworks */,
 				CD4EB2AB187DDF03003B55FF /* Foundation.framework in Frameworks */,
@@ -128,6 +142,8 @@
 		CD4EB2A9187DDF03003B55FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EB310187F029D003B55FF /* libsqlite3.dylib */,
+				CD4EB30E187F01B0003B55FF /* libxml2.dylib */,
 				CD4EB2AA187DDF03003B55FF /* Foundation.framework */,
 				CD4EB2AC187DDF03003B55FF /* CoreGraphics.framework */,
 				CD4EB2AE187DDF03003B55FF /* UIKit.framework */,
@@ -212,6 +228,8 @@
 		CD4EB2DB187DDF67003B55FF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EB30A187EF472003B55FF /* TABTeamLoader.h */,
+				CD4EB30B187EF472003B55FF /* TABTeamLoader.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -232,6 +250,8 @@
 		CD4EB2E6187DDFA9003B55FF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EB305187EF2B2003B55FF /* TeamViewerViewController.h */,
+				CD4EB306187EF2B2003B55FF /* TeamViewerViewController.m */,
 				CD4EB2E7187DDFB2003B55FF /* UserInterface */,
 			);
 			name = ViewControllers;
@@ -240,6 +260,7 @@
 		CD4EB2E7187DDFB2003B55FF /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EB307187EF2B2003B55FF /* TeamViewerViewController.xib */,
 			);
 			name = UserInterface;
 			sourceTree = "<group>";
@@ -329,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4EB2B5187DDF03003B55FF /* InfoPlist.strings in Resources */,
+				CD4EB309187EF2B2003B55FF /* TeamViewerViewController.xib in Resources */,
 				CD4EB2BD187DDF03003B55FF /* Images.xcassets in Resources */,
 				CD4EB2F3187DE014003B55FF /* interview.db in Resources */,
 			);
@@ -350,9 +372,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4EB2E4187DDF92003B55FF /* TFHppleElement.m in Sources */,
+				CD4EB308187EF2B2003B55FF /* TeamViewerViewController.m in Sources */,
 				CD4EB2BB187DDF03003B55FF /* AppDelegate.m in Sources */,
 				CD4EB2FF187DE1AB003B55FF /* TeamMember.m in Sources */,
 				CD4EB2E5187DDF92003B55FF /* XPathQuery.m in Sources */,
+				CD4EB30C187EF472003B55FF /* TABTeamLoader.m in Sources */,
 				CD4EB2F4187DE014003B55FF /* FMDatabase.m in Sources */,
 				CD4EB2F7187DE014003B55FF /* FMDatabase+Extras.m in Sources */,
 				CD4EB2F8187DE014003B55FF /* FMDatabaseManager.m in Sources */,
@@ -481,6 +505,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TABTeamViewer/TABTeamViewer-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "TABTeamViewer/TABTeamViewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -494,6 +523,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TABTeamViewer/TABTeamViewer-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_DIR}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "TABTeamViewer/TABTeamViewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
