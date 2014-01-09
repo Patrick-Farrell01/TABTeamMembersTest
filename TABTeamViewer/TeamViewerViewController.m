@@ -9,6 +9,7 @@
 #import "TeamViewerViewController.h"
 #import "TABTeamLoader.h"
 #import "TeamMember.h"
+#import "TeamMemberTableViewCell.h"
 
 @interface TeamViewerViewController ()
 
@@ -43,20 +44,48 @@
     return count;
 }
 
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    static NSString *CellIdentifier = @"Cell";
+//    
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+//    
+//    if (cell == nil)
+//    {
+//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+//    }
+//    
+//    // Configure the cell
+//    
+//    NSUInteger pos = [indexPath row];
+//    TeamMember * member = [[self allTeamMembers] objectAtIndex:pos];
+//    [[cell textLabel] setText:[member fullName]];
+//    
+//    return cell;
+//}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil)
+    //static the reuse id of the cell.
+    static NSString * CellIdentifier = @"TeamMemberCell";
+    
+    TeamMemberTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if(cell == nil)
     {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        NSArray *nibObjects = [[NSBundle mainBundle]loadNibNamed:@"TeamMemberTableViewCell" owner:nil options:nil];
+        for (id currentObject in nibObjects)
+        {
+            if([currentObject isKindOfClass:[TeamMemberTableViewCell class]])
+            {
+                cell = (TeamMemberTableViewCell *)currentObject;
+            }
+        }
     }
     
-    // Configure the cell
-    
-    NSUInteger pos = [indexPath row];
-    TeamMember * member = [[self allTeamMembers] objectAtIndex:pos];
-    [[cell textLabel] setText:[member fullName]];
+    //get the TeamMember at this index and set up the contents of the cell with it
+    TeamMember * member = [[self allTeamMembers] objectAtIndex:[indexPath row]];
+    [cell setupWithTeamMember:member];
     
     return cell;
 }
