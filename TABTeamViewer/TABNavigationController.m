@@ -26,7 +26,7 @@
     if (self)
     {
         [[UINavigationBar appearance] setBarTintColor:[UIColor orangeColor]];
-        //[[UINavigationBar appearance] setTranslucent:NO];
+        [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
         
         [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:
                                                               [UIColor whiteColor],
