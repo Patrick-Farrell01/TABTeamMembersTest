@@ -52,6 +52,8 @@
 		CD4EB343187F15BF003B55FF /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB336187F15BF003B55FF /* UIImageView+WebCache.m */; };
 		CD4EB346187F1702003B55FF /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB345187F1702003B55FF /* NSData+ImageContentType.m */; };
 		CD4EB349187F3B80003B55FF /* TABNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB348187F3B80003B55FF /* TABNavigationController.m */; };
+		CD4EB34D18802982003B55FF /* TeamMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB34B18802982003B55FF /* TeamMemberViewController.m */; };
+		CD4EB34E18802982003B55FF /* TeamMemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4EB34C18802982003B55FF /* TeamMemberViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +145,9 @@
 		CD4EB345187F1702003B55FF /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		CD4EB347187F3B80003B55FF /* TABNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABNavigationController.h; sourceTree = "<group>"; };
 		CD4EB348187F3B80003B55FF /* TABNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABNavigationController.m; sourceTree = "<group>"; };
+		CD4EB34A18802982003B55FF /* TeamMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMemberViewController.h; sourceTree = "<group>"; };
+		CD4EB34B18802982003B55FF /* TeamMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMemberViewController.m; sourceTree = "<group>"; };
+		CD4EB34C18802982003B55FF /* TeamMemberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamMemberViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -308,6 +313,8 @@
 				CD4EB306187EF2B2003B55FF /* TeamViewerViewController.m */,
 				CD4EB347187F3B80003B55FF /* TABNavigationController.h */,
 				CD4EB348187F3B80003B55FF /* TABNavigationController.m */,
+				CD4EB34A18802982003B55FF /* TeamMemberViewController.h */,
+				CD4EB34B18802982003B55FF /* TeamMemberViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -315,6 +322,7 @@
 		CD4EB2E7187DDFB2003B55FF /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EB34C18802982003B55FF /* TeamMemberViewController.xib */,
 				CD4EB307187EF2B2003B55FF /* TeamViewerViewController.xib */,
 				CD4EB312187F0698003B55FF /* TeamMemberTableViewCell.xib */,
 			);
@@ -451,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD4EB313187F0698003B55FF /* TeamMemberTableViewCell.xib in Resources */,
+				CD4EB34E18802982003B55FF /* TeamMemberViewController.xib in Resources */,
 				CD4EB2B5187DDF03003B55FF /* InfoPlist.strings in Resources */,
 				CD4EB309187EF2B2003B55FF /* TeamViewerViewController.xib in Resources */,
 				CD4EB2BD187DDF03003B55FF /* Images.xcassets in Resources */,
@@ -493,6 +502,7 @@
 				CD4EB33F187F15BF003B55FF /* UIButton+WebCache.m in Sources */,
 				CD4EB2E3187DDF92003B55FF /* TFHpple.m in Sources */,
 				CD4EB343187F15BF003B55FF /* UIImageView+WebCache.m in Sources */,
+				CD4EB34D18802982003B55FF /* TeamMemberViewController.m in Sources */,
 				CD4EB33E187F15BF003B55FF /* SDWebImagePrefetcher.m in Sources */,
 				CD4EB33A187F15BF003B55FF /* SDWebImageDecoder.m in Sources */,
 				CD4EB338187F15BF003B55FF /* SDImageCache.m in Sources */,

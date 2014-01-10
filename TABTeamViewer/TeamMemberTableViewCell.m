@@ -32,29 +32,4 @@
 
 }
 
-//// Override drawrect to customise any drawing
-//- (void) drawRect:(CGRect)rect
-//{
-//    [super drawRect:rect];
-//    
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    CGContextSetStrokeColorWithColor(context, [[UIColor darkTextColor] CGColor]);
-//    
-//    // Draw them with a 1.0 stroke width so they are a bit more visible.
-//    CGContextSetLineWidth(context, 3.0);
-//    
-//    int lineStartXPos = self.bounds.origin.x + 20;
-//    int lineStartYPos = self.bounds.size.height - 5;
-//    int lineFinishXPos = self.bounds.size.width - 20;
-//    int lineFinishYPos = lineStartYPos;
-//    
-//    
-//    CGContextMoveToPoint(context, lineStartXPos,lineFinishYPos); //start at this point
-//    
-//    CGContextAddLineToPoint(context, lineFinishXPos,lineFinishYPos); //draw to this point
-//    
-//    // and now draw the Path!
-//    CGContextStrokePath(context);
-//}
-
 @end

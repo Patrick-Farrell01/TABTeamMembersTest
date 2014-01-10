@@ -10,6 +10,7 @@
 #import "TABTeamLoader.h"
 #import "TeamMember.h"
 #import "TeamMemberTableViewCell.h"
+#import "TeamMemberViewController.h"
 
 @interface TeamViewerViewController ()
 
@@ -45,26 +46,6 @@
     return count;
 }
 
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    static NSString *CellIdentifier = @"Cell";
-//    
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-//    
-//    if (cell == nil)
-//    {
-//        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-//    }
-//    
-//    // Configure the cell
-//    
-//    NSUInteger pos = [indexPath row];
-//    TeamMember * member = [[self allTeamMembers] objectAtIndex:pos];
-//    [[cell textLabel] setText:[member fullName]];
-//    
-//    return cell;
-//}
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //static the reuse id of the cell.
@@ -96,7 +77,12 @@
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    //get the TeamMember at this index
+    TeamMember * member = [[self allTeamMembers] objectAtIndex:[indexPath row]];
+
+    //construct a TeamMemberViewController and push onto navigation stack
+    TeamMemberViewController * teamMemberViewController = [[TeamMemberViewController alloc] initWithTeamMember:member];
+    [[self navigationController] pushViewController:teamMemberViewController animated:YES];
 }
 
 #pragma mark - Instance Methods
