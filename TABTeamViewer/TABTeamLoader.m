@@ -10,12 +10,6 @@
 #import "TeamMember.h"
 #import "TFHpple.h"
 
-//@interface TABTeamLoader ()
-//
-//- (void)
-//
-//@end
-
 @implementation TABTeamLoader
 
 // Loads the TAB Team Members and returns an NSArray of Team Members

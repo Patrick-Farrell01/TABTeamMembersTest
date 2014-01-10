@@ -22,13 +22,6 @@
 		CD4EB2E3187DDF92003B55FF /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2DE187DDF92003B55FF /* TFHpple.m */; };
 		CD4EB2E4187DDF92003B55FF /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2E0187DDF92003B55FF /* TFHppleElement.m */; };
 		CD4EB2E5187DDF92003B55FF /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2E2187DDF92003B55FF /* XPathQuery.m */; };
-		CD4EB2F3187DE014003B55FF /* interview.db in Resources */ = {isa = PBXBuildFile; fileRef = CD4EB2E8187DE014003B55FF /* interview.db */; };
-		CD4EB2F4187DE014003B55FF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2EA187DE014003B55FF /* FMDatabase.m */; };
-		CD4EB2F5187DE014003B55FF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2EC187DE014003B55FF /* FMDatabaseAdditions.m */; };
-		CD4EB2F6187DE014003B55FF /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2EE187DE014003B55FF /* FMResultSet.m */; };
-		CD4EB2F7187DE014003B55FF /* FMDatabase+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2F0187DE014003B55FF /* FMDatabase+Extras.m */; };
-		CD4EB2F8187DE014003B55FF /* FMDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2F2187DE014003B55FF /* FMDatabaseManager.m */; };
-		CD4EB2FC187DE18E003B55FF /* DatabaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2FB187DE18E003B55FF /* DatabaseDAO.m */; };
 		CD4EB2FF187DE1AB003B55FF /* TeamMember.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB2FE187DE1AB003B55FF /* TeamMember.m */; };
 		CD4EB308187EF2B2003B55FF /* TeamViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4EB306187EF2B2003B55FF /* TeamViewerViewController.m */; };
 		CD4EB309187EF2B2003B55FF /* TeamViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4EB307187EF2B2003B55FF /* TeamViewerViewController.xib */; };
@@ -89,19 +82,6 @@
 		CD4EB2E0187DDF92003B55FF /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
 		CD4EB2E1187DDF92003B55FF /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		CD4EB2E2187DDF92003B55FF /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
-		CD4EB2E8187DE014003B55FF /* interview.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = interview.db; sourceTree = "<group>"; };
-		CD4EB2E9187DE014003B55FF /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		CD4EB2EA187DE014003B55FF /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		CD4EB2EB187DE014003B55FF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		CD4EB2EC187DE014003B55FF /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		CD4EB2ED187DE014003B55FF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		CD4EB2EE187DE014003B55FF /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		CD4EB2EF187DE014003B55FF /* FMDatabase+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+Extras.h"; sourceTree = "<group>"; };
-		CD4EB2F0187DE014003B55FF /* FMDatabase+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+Extras.m"; sourceTree = "<group>"; };
-		CD4EB2F1187DE014003B55FF /* FMDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseManager.h; sourceTree = "<group>"; };
-		CD4EB2F2187DE014003B55FF /* FMDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseManager.m; sourceTree = "<group>"; };
-		CD4EB2FA187DE18E003B55FF /* DatabaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseDAO.h; sourceTree = "<group>"; };
-		CD4EB2FB187DE18E003B55FF /* DatabaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseDAO.m; sourceTree = "<group>"; };
 		CD4EB2FD187DE1AB003B55FF /* TeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamMember.h; sourceTree = "<group>"; };
 		CD4EB2FE187DE1AB003B55FF /* TeamMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamMember.m; sourceTree = "<group>"; };
 		CD4EB305187EF2B2003B55FF /* TeamViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamViewerViewController.h; sourceTree = "<group>"; };
@@ -213,12 +193,10 @@
 			children = (
 				CD4EB31B187F15A3003B55FF /* SDWebImage */,
 				CD4EB317187F06E2003B55FF /* Classes */,
-				CD4EB2F9187DE17C003B55FF /* DAO */,
 				CD4EB2E6187DDFA9003B55FF /* ViewControllers */,
 				CD4EB2E7187DDFB2003B55FF /* UserInterface */,
 				CD4EB2DC187DDF79003B55FF /* Hpple */,
 				CD4EB2DB187DDF67003B55FF /* Helpers */,
-				CD4EB2DA187DDF5D003B55FF /* Database */,
 				CD4EB2D9187DDF55003B55FF /* Model */,
 				CD4EB2B9187DDF03003B55FF /* AppDelegate.h */,
 				CD4EB2BA187DDF03003B55FF /* AppDelegate.m */,
@@ -266,24 +244,6 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		CD4EB2DA187DDF5D003B55FF /* Database */ = {
-			isa = PBXGroup;
-			children = (
-				CD4EB2E8187DE014003B55FF /* interview.db */,
-				CD4EB2E9187DE014003B55FF /* FMDatabase.h */,
-				CD4EB2EA187DE014003B55FF /* FMDatabase.m */,
-				CD4EB2EB187DE014003B55FF /* FMDatabaseAdditions.h */,
-				CD4EB2EC187DE014003B55FF /* FMDatabaseAdditions.m */,
-				CD4EB2ED187DE014003B55FF /* FMResultSet.h */,
-				CD4EB2EE187DE014003B55FF /* FMResultSet.m */,
-				CD4EB2EF187DE014003B55FF /* FMDatabase+Extras.h */,
-				CD4EB2F0187DE014003B55FF /* FMDatabase+Extras.m */,
-				CD4EB2F1187DE014003B55FF /* FMDatabaseManager.h */,
-				CD4EB2F2187DE014003B55FF /* FMDatabaseManager.m */,
-			);
-			name = Database;
-			sourceTree = "<group>";
-		};
 		CD4EB2DB187DDF67003B55FF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,15 +287,6 @@
 				CD4EB312187F0698003B55FF /* TeamMemberTableViewCell.xib */,
 			);
 			name = UserInterface;
-			sourceTree = "<group>";
-		};
-		CD4EB2F9187DE17C003B55FF /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-				CD4EB2FA187DE18E003B55FF /* DatabaseDAO.h */,
-				CD4EB2FB187DE18E003B55FF /* DatabaseDAO.m */,
-			);
-			name = DAO;
 			sourceTree = "<group>";
 		};
 		CD4EB317187F06E2003B55FF /* Classes */ = {
@@ -463,7 +414,6 @@
 				CD4EB2B5187DDF03003B55FF /* InfoPlist.strings in Resources */,
 				CD4EB309187EF2B2003B55FF /* TeamViewerViewController.xib in Resources */,
 				CD4EB2BD187DDF03003B55FF /* Images.xcassets in Resources */,
-				CD4EB2F3187DE014003B55FF /* interview.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,9 +445,6 @@
 				CD4EB2E5187DDF92003B55FF /* XPathQuery.m in Sources */,
 				CD4EB349187F3B80003B55FF /* TABNavigationController.m in Sources */,
 				CD4EB30C187EF472003B55FF /* TABTeamLoader.m in Sources */,
-				CD4EB2F4187DE014003B55FF /* FMDatabase.m in Sources */,
-				CD4EB2F7187DE014003B55FF /* FMDatabase+Extras.m in Sources */,
-				CD4EB2F8187DE014003B55FF /* FMDatabaseManager.m in Sources */,
 				CD4EB340187F15BF003B55FF /* UIImage+GIF.m in Sources */,
 				CD4EB33F187F15BF003B55FF /* UIButton+WebCache.m in Sources */,
 				CD4EB2E3187DDF92003B55FF /* TFHpple.m in Sources */,
@@ -507,12 +454,9 @@
 				CD4EB33A187F15BF003B55FF /* SDWebImageDecoder.m in Sources */,
 				CD4EB338187F15BF003B55FF /* SDImageCache.m in Sources */,
 				CD4EB339187F15BF003B55FF /* SDWebImageCompat.m in Sources */,
-				CD4EB2F5187DE014003B55FF /* FMDatabaseAdditions.m in Sources */,
-				CD4EB2F6187DE014003B55FF /* FMResultSet.m in Sources */,
 				CD4EB33C187F15BF003B55FF /* SDWebImageDownloaderOperation.m in Sources */,
 				CD4EB2B7187DDF03003B55FF /* main.m in Sources */,
 				CD4EB346187F1702003B55FF /* NSData+ImageContentType.m in Sources */,
-				CD4EB2FC187DE18E003B55FF /* DatabaseDAO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
